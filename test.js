@@ -6,7 +6,7 @@ var endTime;
 const urls = [];
 
 async function run() {
-    const chromeless = new Chromeless()
+    const chromeless = new Chromeless();
     startTime = Date.now();
     for (var i = 0; i < 10; i++) {
     const screenshot = await chromeless
