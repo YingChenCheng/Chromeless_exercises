@@ -8,7 +8,7 @@ const urls = [];
 async function run() {
     const chromeless = new Chromeless();
     startTime = Date.now();
-    for (var i = 0; i < 10; i++) {
+    for (var i = 0; i < urls.length; i++) {
     const screenshot = await chromeless
         .goto(urls[i])
         // .screenshot()
